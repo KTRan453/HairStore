@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Lua Chon"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColor="@color/den"
+        android:background="@color/vang"
+        android:textStyle="bold"
+        android:paddingTop="5dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/den"/>
+    <TextView
+        android:id="@+id/txvThemKH"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Them Khach Hang"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColor="@color/den"
+        android:background="@color/trang"
+        android:textStyle="bold"
+        android:paddingTop="5dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/den"/>
+    <TextView
+        android:id="@+id/txvThemThoCat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Them Tho Cat"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColor="@color/den"
+        android:background="@color/trang"
+        android:textStyle="bold"
+        android:paddingTop="5dp"/>
+</LinearLayout>

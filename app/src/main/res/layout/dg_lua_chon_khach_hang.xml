@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txvTenKhachHang"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/vang"
+        android:gravity="center_vertical"
+        android:paddingTop="5dp"
+        android:text=""
+        android:textColor="@color/den"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/den"/>
+    <TextView
+        android:id="@+id/txvSuaThongTinKhachHang"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sua Thong Tin"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColor="@color/den"
+        android:background="@color/trang"
+        android:textStyle="bold"
+        android:paddingTop="5dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/den"/>
+    <TextView
+        android:id="@+id/txvXoaKhachHang"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Xoa Khach Hang"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColor="@color/den"
+        android:background="@color/trang"
+        android:textStyle="bold"
+        android:paddingTop="5dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/den"/>
+    <TextView
+        android:id="@+id/txvCatTocChoKhach"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Chon Tho Cat Toc"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColor="@color/den"
+        android:background="@color/trang"
+        android:textStyle="bold"
+        android:paddingTop="5dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/den"/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Xem Lich Su Cat"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColor="@color/den"
+        android:background="@color/trang"
+        android:textStyle="bold"
+        android:paddingTop="5dp"/>
+</LinearLayout>
